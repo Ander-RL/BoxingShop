@@ -54,7 +54,22 @@ body {
     font-size: 400%;
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 5%;
+}
+
+.firstDiv p {
+    margin: 0;
+    width: 25%;
+    height: fit-content;
+    font-family: 'Exo 2', sans-serif;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.200);
+    padding: 10px;
+    border-radius: 2%;
+    font-size: 150%;
+    position: relative;
+    top: 20%;
+    left: 38%;
 }
 
 .secondDiv { 
@@ -62,11 +77,36 @@ body {
     height: 100vh;
     background-color: rgb(0, 255, 55);
     margin: 0;
+    background-image: url("../images/BoxingBoys.jpg");
+    background-size: cover;
 }
 
-.secondDiv h3 {
+.punchingBag {
+    border: 4px solid rgba(240, 255, 255, 0.200);
+    height: 40%;
+    width: auto;
+    border-radius: 5%;
+    position: relative;
+    top: 30%;
+    left: 0%;
+    
+}
+
+.secondDiv p {
     margin: 0;
-    margin-left: 10px;
+    width: 450px;
+    height: fit-content;
+    font-family: 'Exo 2', sans-serif;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.200);
+    padding: 10px;
+    border-radius: 2%;
+    font-size: 140%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 15%;
+    left: 65%;
 }
 
 .footer { 
