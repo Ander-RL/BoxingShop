@@ -57,62 +57,94 @@
     </div>
   </nav>
 
-  <div class="container-fluid" id="intro">
-    <div class="row p-5">
-      <h3 class="display-5 text-center text-light">PLUS ULTRA BOXING GEAR</h3>
-    </div>
-      <div class="row justify-content-md-center m-3">
-        <div class="col-lg-4 col-md-4">
-          <p class="h6 text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec consequat porttitor justo, ut molestie turpis bibendum non.
-            Sed blandit lorem sed turpis elementum luctus. Mauris elementum eu eros eu aliquam.
-            Suspendisse sollicitudin lobortis turpis a aliquet.
-            Fusce molestie, enim eu varius convallis, erat velit lacinia ligula, sit amet mattis diam sem sed diam.
-            Sed tristique leo nibh, sit amet vehicula quam dapibus ac. Curabitur venenatis pellentesque odio id tempus.
-          </p>
+  <div class="container-fluid p-0" id="intro">
+
+    <div id="carouselIntroSlides" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="carousel-innerIntro">
+
+        <div class="carousel-item active">
+          <img src="images/BoxingGirlBags.jpg" class="d-block w-100" alt="Boxing girl">
         </div>
+        <div class="carousel-item">
+          <img src="images/BoxingBoys2.jpg" class="d-block w-100" alt="Boxing girl">
+        </div>
+        <div class="carousel-item">
+          <img src="images/Contrast.jpg" class="d-block w-100" alt="Boxing girl">
+        </div>
+        <div class="carousel-item">
+          <img src="images/KickGirl.jpg" class="d-block w-100" alt="Boxing girl">
+        </div>
+        <div class="carousel-item">
+          <img src="images/Stretching.jpg" class="d-block w-100" alt="Boxing girl">
+        </div>
+
       </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIntroSlides" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselIntroSlides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIntroSlides" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIntroSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIntroSlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselIntroSlides" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselIntroSlides" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+
     </div>
   </div>
+
+
 
   <div class="container-fluid" id="about">
     <div class="row">
-      <img src="images/HookBag.jpg" class="img-fluid mx-auto p-0 m-5" alt="Punching bag" id="punchingBag">
     </div>
     <div class="row">
-      <div class="col-lg-4 col-md-4">
-        <p class="h6 text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Donec consequat porttitor justo, ut molestie turpis bibendum non.
-          Sed blandit lorem sed turpis elementum luctus. Mauris elementum eu eros eu aliquam.
-          Suspendisse sollicitudin lobortis turpis a aliquet.
-          Fusce molestie, enim eu varius convallis, erat velit lacinia ligula, sit amet mattis diam sem sed diam.
-          Sed tristique leo nibh, sit amet vehicula quam dapibus ac. Curabitur venenatis pellentesque odio id tempus.
-        </p>
+
+      <div class="itemBanner">
+        <div class="col-lg-4 col-md-2 ">
+          <img src="images/HookBag.jpg" class="img-fluid mx-auto p-0 mt-3" alt="Punching bag" id="shoppingItem">
+          <div class="itemBannerText">
+            <h4 class="display-6 text-left text-dark p-1 m-0">PUNCHING BAGS</h3>
+              <button type="button" class="btn btn-outline-dark btn-sm m-1">shop now</button>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-4">
-        <p class="h6 text-light">
-          Cras eu erat et tellus porttitor iaculis eget vitae lorem.
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-          Quisque malesuada dolor et euismod sollicitudin. Curabitur porttitor libero non eros maximus accumsan.
-          Donec vitae molestie nisi, quis facilisis elit. Suspendisse porttitor metus eu velit interdum commodo.
-          Quisque et suscipit nisi. Nunc ac diam eu purus finibus consectetur quis sed dolor.
-          Suspendisse a metus a urna convallis rhoncus in id velit. Etiam felis massa, mattis sed rutrum a, faucibus nec
-          tellus.
-        </p>
+
+      <div class="itemBanner">
+        <div class="col-lg-4 col-md-2 ">
+          <img src="images/Gloves.jpg" class="img-fluid mx-auto p-0" alt="Gloves" id="shoppingItem">
+          <div class="itemBannerText">
+            <h4 class="display-6 text-left text-dark p-1 m-0">BOXING GLOVES</h3>
+              <button type="button" class="btn btn-outline-dark btn-sm m-1">shop now</button>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-4">
-        <p class="h6 text-light">
-          Morbi non lectus egestas, aliquet quam sed, condimentum tortor.
-          Duis aliquam lobortis urna, eu ullamcorper massa interdum eget.
-          Proin sed elementum dolor.</p>
+
+      <div class="itemBanner">
+        <div class="col-lg-4 col-md-2 ">
+          <img src="images/Pads.png" class="img-fluid mx-auto p-0" alt="Pads" id="shoppingItem">
+          <div class="itemBannerText">
+            <h4 class="display-6 text-left text-dark p-1 m-0">Pads</h3>
+              <button type="button" class="btn btn-outline-dark btn-sm m-1">shop now</button>
+          </div>
+        </div>
       </div>
+
     </div>
-  </div>
 
 
-  <div class="container-fluid bg-black p-1" id="footer">
-    <h3>FOOTER</h3>
-  </div>
+    <div class="container-fluid bg-light p-1" id="footer">
+      <h3 class="h6 text-dark">FOOTER</h3>
+    </div>
 
 </body>
 
