@@ -49,6 +49,22 @@ body {
   #footer {
     text-align: center;
   }
+
+  .footerContentCol {
+      text-align: left;
+      margin: 0px 20px;
+      width: 200px;
+      text-decoration: none;
+  }
+
+  .footerContentCol h3 {
+      font-weight: 700;
+  }
+
+  .footerContentCol a {
+    text-decoration: none;
+    color: grey;
+  }
   
   
   /*Mobile version*/
