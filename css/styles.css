@@ -2,58 +2,83 @@ body {
     background-color: #000000;
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: medium;
-}
-
-.container {
-    background-color: blueviolet;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
-p {
+  }
+  
+  p {
     text-align: justify;
-}
+  }
+  
+  .navbar-brand {
+    font-family: 'Lobster', cursive;
+  }
 
-#carouselIntroSlides {
+  .nav-item {
+      font-weight: 600;
+      font-size: 1.15rem;
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+
+  .nav-item:hover {
+      background-color: rgba(120, 120, 120, 0.14);
+      border-radius: 8%;
+  }
+  
+  #carouselIntroSlides {
     height: 100vh;
-}
-
-#carousel-innerIntro {
+  }
+  
+  #carousel-innerIntro {
     height: 100%;
-}
-
-#carousel-innerIntro img {
+  }
+  
+  #carousel-innerIntro img {
     height: 100%;
-}
+  }
 
-#about {
-    padding-top: 5%;
-    background-color: white;
-    height: fit-content;
-}
+  .card-title {
+      font-weight: 600;
+  }
 
-#footer {
+  .card-body a {
+      font-weight: 620;
+  }
+  
+  #footer {
     text-align: center;
-}
+  }
 
+  .footerContentCol {
+      text-align: left;
+      margin: 0px 20px;
+      width: 200px;
+      text-decoration: none;
+  }
 
-/*Mobile version*/
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .footerContentCol h3 {
+      font-weight: 700;
+  }
 
+  .footerContentCol a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  
+  /*Mobile version*/
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  
     #carouselIntroSlides {
         height: 100%;
     }
-
+  
     #about {
         height: 100%;
     }
-
+  
     .itemBanner {
         text-align: left;
         padding-right: 8%;
@@ -64,30 +89,30 @@ p {
         width: fit-content;
         font-weight: bolder;
     }
-
+  
     .itemBannerText {
         text-align: left;
         padding-left: 7%;
         padding-right: 7%;
     }
-
+  
     #shoppingItem {
         width: 85%;
     }
-
-}
-
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-
+  
+  }
+  
+  /* Portrait */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  
     #carouselIntroSlides {
         height: 100%;
     }
-
+  
     #about {
         height: 100%;
     }
-
+  
     .itemBanner {
         text-align: left;
         padding-right: 8%;
@@ -98,55 +123,55 @@ p {
         width: fit-content;
         font-weight: bolder;
     }
-
+  
     .itemBannerText {
         text-align: left;
         padding-left: 7%;
         padding-right: 7%;
     }
-
+  
     #punchingBag {
         width: 85%;
     }
-}
-
-/* Portrait iPad*/
-@media only screen and (min-device-width: 568px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-
+  }
+  
+  /* Portrait iPad*/
+  @media only screen and (min-device-width: 568px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  
     #carouselIntroSlides {
         height: 100%;
     }
-
+  
     #about {
         height: 100%;
     }
-
+  
     .itemBannerText {
         text-align: left;
         padding-left: 7%;
         padding-right: 7%;
     }
-
+  
     .itemBannerText h4 {
         font-size: 150%;
     }
-
+  
     #shoppingItem {
         width: 200px;
     }
-}
-
-/* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
+  }
+  
+  /* Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  
     #carouselIntroSlides {
         height: 100%;
     }
-
+  
     #about {
         height: 100%;
     }
-
+  
     .itemBanner {
         text-align: left;
         padding-right: 8%;
@@ -157,14 +182,15 @@ p {
         width: fit-content;
         font-weight: bolder;
     }
-
+  
     .itemBannerText {
         text-align: left;
         padding-left: 7%;
         padding-right: 7%;
     }
-
+  
     #punchingBag {
         width: 85%;
     }
-}
+  }
+  
