@@ -23,7 +23,7 @@ body {
 
   .nav-item:hover {
       background-color: rgba(120, 120, 120, 0.14);
-      border-radius: 8%;
+      border-radius: 4%;
   }
   
   #carouselIntroSlides {
