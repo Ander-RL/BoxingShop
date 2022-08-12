@@ -1,8 +1,9 @@
 var cards = document.querySelectorAll(".card");
+var timeoutValue = 250;
 
 
 for(var i = 0; i < cards.length; i++){
-    cards[i].addEventListener("click", function() {
+    cards[i].addEventListener("mouseover", function() {
         currentCardOpacity(this);
     });
 }
@@ -43,7 +44,7 @@ function setOpacity(selection){
         selection.style.opacity = 0.5;
         setTimeout(() => {
             selection.style.opacity = 1.0;
-        }, 500);
+        }, timeoutValue);
     } 
 }
 
